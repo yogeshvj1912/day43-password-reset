@@ -25,7 +25,7 @@ function PasswordReset() {
                 position: "top-center"
             });
         } else {
-            const res = await fetch("https://magnificent-sopapillas-535129.netlify.app/sendpasswordlink", {
+            const res = await fetch("https://password-d4k2.onrender.com/sendpasswordlink", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

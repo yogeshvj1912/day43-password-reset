@@ -13,7 +13,7 @@ function Dashboard() {
     const DashboardValid = async()=>{
         let token = localStorage.getItem("usersdatatoken")
   
-        const res = await fetch ("https://magnificent-sopapillas-535129.netlify.app/validuser",{
+        const res = await fetch ("https://password-d4k2.onrender.com/validuser",{
             method:"GET",
             headers:{
                "Content-Type":"application/json",

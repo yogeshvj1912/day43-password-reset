@@ -71,7 +71,7 @@ const Register = () => {
             // console.log("user registration succesfully done");
 
 
-            const data = await fetch("https://magnificent-sopapillas-535129.netlify.app/register", {
+            const data = await fetch("https://password-d4k2.onrender.com/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
