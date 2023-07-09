@@ -71,7 +71,7 @@ const Register = () => {
             // console.log("user registration succesfully done");
 
 
-            const data = await fetch("http://localhost:8000/register", {
+            const data = await fetch("https://magnificent-sopapillas-535129.netlify.app/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

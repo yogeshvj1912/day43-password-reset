@@ -50,7 +50,7 @@ const Login = () => {
     } else {
       // console.log("user login succesfully done");
 
-      const data = await fetch("http://localhost:8000/login", {
+      const data = await fetch("https://magnificent-sopapillas-535129.netlify.app/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
